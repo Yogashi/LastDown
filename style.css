@@ -1,0 +1,183 @@
+body {
+    background-color: black;
+}
+   
+.firstPhoto{
+   border-radius: 180px;
+   border: 2px solid purple;
+   width: 80%;
+}
+
+.cen{
+    text-align: center;
+}
+
+.welcom{
+   color: purple;
+   text-align: center;
+   font-family: "Amiri" sans-serif;
+}
+   
+.line1{
+   color: black;
+   background-color: purple;
+   text-align: center;
+}
+   
+#cata{
+   width: 65%;
+   border-radius: 80px;
+   border: 2px solid purple;
+   cursor: pointer;
+}
+
+.pic{
+  width: 65%;
+  border-radius: 80px;
+}
+   
+.line{
+  border: 0;
+   height: 20px;
+   background-color: purple;
+}
+   
+h5{
+   color: white;
+   text-align: right;
+}
+
+.dropdown {
+   position: relative;
+   display: inline-block;
+ }
+ 
+ .dropdown-btn {
+   background-color: #007bff;
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   cursor: pointer;
+   font-size: 16px;
+   border-radius: 5px;
+ }
+ 
+ .dropdown-btn:hover {
+   background-color: #0056b3;
+ }
+ 
+ .dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: white;
+   min-width: 200px;
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+   z-index: 1;
+   border-radius: 5px;
+   overflow: hidden;
+ }
+ 
+ .dropdown-content a {
+   padding: 10px 15px;
+   display: block;
+   text-decoration: none;
+   color: #333;
+ }
+ 
+ .dropdown-content a:hover {
+   background-color: #f1f1f1;
+   color: #007bff;
+ }
+
+ .story {
+   color: white;
+   font-size: 1.5em;
+   text-align: right;
+   width: 100%;
+   white-space: pre-wrap;
+   word-wrap: break-word;
+   font-family: "Amiri" sans-serif;
+   direction: rtl;
+ }
+
+ .chap{
+   color: purple;
+   text-align: center;
+   font-family: "Amiri" sans-serif;
+ }
+
+ .part{
+   color: red;
+   text-align: center;
+   font-family: "Amiri" sans-serif;
+ }
+
+ .next{
+  background-color: #007bff;
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   cursor: pointer;
+   font-size: 16px;
+   border-radius: 5px;
+ }
+
+ .watt{
+  width: 20%;
+   border-radius: 80px;
+   cursor: pointer;
+ }
+
+ .selector{
+  width: 65%;
+  background-color: blueviolet;
+   color: black;
+   padding: 10px 20px;
+   border: none;
+   cursor: pointer;
+   font-size: 50px;
+   border-radius: 5px;
+   font-family: "Amiri" sans-serif;
+ }
+
+ .info{
+  width: 65%;
+  background-color: blueviolet;
+   color: black;
+   text-align: right;
+   padding: 10px 20px;
+   border: none;
+   cursor: pointer;
+   font-size: 50px;
+   border-radius: 5px;
+   font-family: "Amiri" sans-serif;
+ }
+
+ .info-img{
+  position: relative;
+  left: 180px;
+  bottom: 77px;
+  z-index: 1;
+  width: 75px;
+ }
+
+ .pre{
+  float: left;
+  width: 30%;
+ }
+
+ .novels{
+  width: 30%;
+  border: 2px solid purple;
+  border-radius: 80px;
+  cursor: pointer;
+ }
+
+ .missing{
+  color: red;
+ }
+
+ .redirect{
+  color: purple;
+  cursor: pointer;
+ }
