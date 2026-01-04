@@ -17,3 +17,18 @@ function redirectToPage(url) {
       }
     });
   });
+
+(function () {
+    const key = "pageReloaded";
+
+    if (!sessionStorage.getItem(key)) {
+        sessionStorage.setItem(key, "true");
+        location.reload(true);
+    }
+
+    window.addEventListener("pageshow", function (event) {
+        if (event.persisted) {
+            location.reload();
+        }
+    });
+})();
