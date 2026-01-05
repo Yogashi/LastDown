@@ -151,10 +151,9 @@ h5{
  .info-img{
   width: 70px;
   position: fixed;
-  left: 160px;
   border-radius: 20px;
   display: block;
-  margin-top: -5px;
+  margin-top: -0.6%;
  }
 
  .pre{
@@ -212,4 +211,5 @@ width: 50%;
    word-wrap: break-word;
    font-family: "Amiri" sans-serif;
    direction: rtl;
+
  }
