@@ -158,7 +158,9 @@ h5{
 
  .pre{
   float: left;
-  width: 30%;
+  width: 25%;
+  border: 2px solid purple;
+  border-radius: 50px;
  }
 
  .novels{
@@ -211,4 +213,17 @@ width: 50%;
    word-wrap: break-word;
    font-family: "Amiri" sans-serif;
    direction: rtl;
+ }
+
+ .widegrid{
+  display: flex;
+  gap: 20px;
+ }
+
+ .grid-img{
+  float: right;
+  width: 48%;
+  border: 2px solid purple;
+  border-radius: 50px;
+  cursor: pointer;
  }
